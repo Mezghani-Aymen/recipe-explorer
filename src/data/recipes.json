@@ -1,0 +1,63 @@
+{
+    "users": [
+        {
+            "id": "u1",
+            "email": "testuser@cook.io",
+            "password": "Password123",
+            "displayName": "Chef Tester"
+        }
+    ],
+    "recipes": [
+        {
+            "id": "r1",
+            "title": "Classic Pancakes",
+            "description": "Fluffy traditional pancakes perfect for breakfast.",
+            "image": "/panckake.jpg",
+            "dishType": "breakfast",
+            "dietaryLabels": [
+                "vegetarian"
+            ],
+            "ingredients": [
+                "1 1/2 cups all-purpose flour",
+                "3 1/2 teaspoons baking powder",
+                "1 teaspoon salt",
+                "1 tablespoon white sugar",
+                "1 1/4 cups milk",
+                "1 egg",
+                "3 tablespoons butter, melted"
+            ],
+            "instructions": [
+                "In a large bowl, sift together the flour, baking powder, salt, and sugar.",
+                "Make a well in the center and pour in the milk, egg,  and melted butter; mix until smooth.",
+                "Heat a lightly oiled griddle or frying pan over medium-high heat. Pour or scoop the batter onto the griddle.",
+                "Brown on both sides and serve hot."
+            ]
+        },
+        {
+            "id": "r2",
+            "title": "Spaghetti Carbonara",
+            "description": "An Italian pasta dish from Rome made with egg, hard cheese, pancetta, and pepper.",
+            "image": "/panckake.jpg",
+            "dishType": "lunch",
+            "dietaryLabels": [
+                "pork"
+            ],
+            "ingredients": [
+                "200g spaghetti",
+                "100g pancetta",
+                "2 large eggs",
+                "50g grated Parmesan cheese",
+                "1 clove garlic (optional)",
+                "Salt and freshly ground black pepper"
+            ],
+            "instructions": [
+                "Cook the spaghetti in salted boiling water until al dente.",
+                "Meanwhile, fry the pancetta (and garlic, if desired) in a pan until crispy.",
+                "Beat the eggs in a bowl, add grated Parmesan, and mix well.",
+                "Drain the spaghetti, reserving some cooking water. Quickly toss the pasta with the pancetta,then remove from heat.",
+                "Stir in the egg-cheese mixture, adding pasta water if needed for creaminess.",
+                "Season with pepper and serve immediately."
+            ]
+        }
+    ]
+}
