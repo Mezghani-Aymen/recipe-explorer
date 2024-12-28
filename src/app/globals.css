@@ -31,3 +31,19 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.custom-list {
+  list-style: none; /* Remove default list styling */
+  counter-reset: list-counter; /* Initialize counter */
+}
+
+.custom-list li {
+  counter-increment: list-counter; /* Increment counter for each list item */
+  margin-bottom: 10px; /* Optional spacing */
+}
+
+.custom-list li::before {
+  content: counter(list-counter) ". "; /* Display the counter */
+  color: #FFD700; /* Change this to your desired color */
+  font-weight: bold; /* Optional: make it bold */
+}
