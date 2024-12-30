@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -14,23 +12,25 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  Challenges faced
+1- Routing:
+Initially, I faced some difficulty understanding how the routing system in Next.js works, especially with the new app directory structure. However, it didn’t take long to figure it out, and I was able to set up routes correctly.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2-Fetching Data by ID:
+Implementing data fetching for individual recipes (by ID) required some troubleshooting to ensure the correct API routes were called and the data was properly displayed. This challenge was resolved after refining the logic and API handlers.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3-Authentication:
 
-## Learn More
+3.1-Sending API Requests: One of the challenges was understanding how to properly send requests to the API, especially when the api folder was used to define server-side functions. This required careful handling to ensure the API endpoints worked seamlessly with the frontend.
 
-To learn more about Next.js, take a look at the following resources:
+3.2-JWT Generation: Generating a JSON Web Token (JWT) for secure authentication proved to be a challenge. Initially, the implementation didn’t work as expected, so I decided to cancel this feature for now. However, I plan to revisit and fix it in the future.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4-Dark/Light Mode:
+Implementing a theme toggle for dark and light mode didn’t work as intended. This feature is still incomplete, and I’m unsure about the best approach to make it functional. It's a task I plan to explore further.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+5-Deployement:
+Deploying the project required careful attention to ensure that APIs and routes worked in the production environment. While I managed to deploy successfully, it was a new learning experience for me.
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# This aspect has not been finalized yet.
