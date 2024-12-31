@@ -10,7 +10,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col items-center justify-center">
-          <Link href="/api/auth/login" className="text-xl px-6 py-2 rounded text-secondry border-secondry border hover:bg-secondry hover:text-customText" >
+          <Link href="/api/recipes" className="text-xl px-6 py-2 rounded text-secondry border-secondry border hover:bg-secondry hover:text-customText" >
             Start
           </Link>
         </div>
