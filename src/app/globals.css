@@ -32,18 +32,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.custom-list {
-  list-style: none; /* Remove default list styling */
-  counter-reset: list-counter; /* Initialize counter */
+.custom-list-ordred {
+  counter-reset: list-counter;
 }
 
-.custom-list li {
-  counter-increment: list-counter; /* Increment counter for each list item */
-  margin-bottom: 10px; /* Optional spacing */
+.custom-list-ordred li {
+  counter-increment: list-counter;
 }
 
-.custom-list li::before {
-  content: counter(list-counter) ". "; /* Display the counter */
-  color: #FFD700; /* Change this to your desired color */
-  font-weight: bold; /* Optional: make it bold */
+.custom-list-ordred li::before {
+  content: counter(list-counter) ". ";
+  color: var(--secondry);
+  font-weight: bold;
 }
