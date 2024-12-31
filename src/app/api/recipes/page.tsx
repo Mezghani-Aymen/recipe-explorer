@@ -66,7 +66,9 @@ const Recipe: React.FC = () => {
                             key={recipe.id}
                             className="border border-secondry rounded-lg p-4 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg relative flex flex-col justify-center items-center gap-4"
                         >
-                            <Image width={300} height={300} alt={recipe.title} src={recipe.image} />
+                            <div className='relative w-full h-56 bg-slate-200 rounded-xl'>
+                                <img src={recipe.image} alt={recipe.title} className='object-cover w-full h-full  rounded-xl ' />
+                            </div>
                             <h3 className="font-semibold text-white">{recipe.title}</h3>
                             <div className="rounded-lg p-4 absolute inset-0 bg-black bg-opacity-80 backdrop-blur-lg flex flex-col items-center justify-center text-white opacity-0 hover:opacity-100 transition-opacity text-center gap-4">
                                 <h3 className="font-bold">{recipe.description}</h3>
