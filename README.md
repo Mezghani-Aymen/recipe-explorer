@@ -12,6 +12,12 @@ pnpm dev
 bun dev
 ```
 
+run json server :
+
+```bash
+json-server --watch src/data/recipes.json --port 3001
+```
+
 ##  Challenges faced
 1- Routing:
 Initially, I faced some difficulty understanding how the routing system in Next.js works, especially with the new app directory structure. However, it didn’t take long to figure it out, and I was able to set up routes correctly.
